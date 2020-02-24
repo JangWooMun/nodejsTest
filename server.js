@@ -11,4 +11,4 @@ var handleRequest = function(request, response) {
                 "] "+os.hostname());
 }
 var www = http.createServer(handleRequest);
-www.listen(8080);
+www.listen(3000);
