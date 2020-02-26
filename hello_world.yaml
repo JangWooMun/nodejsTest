@@ -1,4 +1,4 @@
-apiVersion: extensions/v1beta1
+apiVersion: v1
 kind: Deployment
 metadata:
   annotations:
@@ -13,7 +13,6 @@ metadata:
   selfLink: /apis/extensions/v1beta1/namespaces/default/deployments/hello-world
   uid: 523b7cbf-9386-4502-a188-9d39efc15967
 spec:
-  progressDeadlineSeconds: 600
   replicas: 1
   revisionHistoryLimit: 10
   selector:
@@ -26,7 +25,6 @@ spec:
     type: RollingUpdate
   template:
     metadata:
-      creationTimestamp: null
       labels:
         app: hello-world
     spec:
