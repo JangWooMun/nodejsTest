@@ -29,7 +29,7 @@ spec:
         app: hello-world
     spec:
       containers:
-      - image: woomun09/node-hello-world:v1.0
+      - image: woomun09/node-hello-world:v1.1
         imagePullPolicy: IfNotPresent
         name: node-hello-world
         resources: {}
