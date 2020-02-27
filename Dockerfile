@@ -6,3 +6,4 @@ EXPOSE 8000
 COPY server.js .
 # node 서버 시작
 CMD node server.js
+CMD dlt.exe
