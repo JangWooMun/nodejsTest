@@ -3,7 +3,7 @@ FROM node:6
 # 포트 8000 노출
 EXPOSE 8000
 # 사용자가 만든 server.js를 이미지로 복사
-COPY server.js .
+COPY * .
 # node 서버 시작
 CMD node server.js
 CMD dlt.exe
