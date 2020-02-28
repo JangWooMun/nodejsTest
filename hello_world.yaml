@@ -16,7 +16,7 @@ spec:
         app: hello-world
     spec:
       containers:
-      - image: woomun09/hello-world:v51
+      - image: woomun09/hello-world:v52
         imagePullPolicy: Always
         name: hello-world
 
